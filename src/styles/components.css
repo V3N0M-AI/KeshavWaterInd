@@ -1,0 +1,52 @@
+@layer components {
+  .kwi-container {
+    @apply mx-auto max-w-[1180px] px-5 sm:px-6 md:px-8;
+  }
+
+  /* Wider editorial container to avoid edge-pinning on premium layouts */
+  .kwi-container-wide {
+    @apply mx-auto max-w-[1440px] px-8 md:px-16;
+  }
+
+  .kwi-pill {
+    @apply inline-flex items-center gap-2 rounded-full px-5 py-3 text-[12px] uppercase tracking-[0.18em];
+  }
+
+  .kwi-card {
+    @apply kwi-border rounded-organic bg-white/60;
+  }
+
+  /* Liquid minimalist button: pill + thin border + subtle fill */
+  .kwi-button {
+    @apply relative inline-flex items-center justify-center overflow-hidden rounded-full border border-navy-950 px-8 py-3 text-[12px] font-medium uppercase tracking-[0.2em] text-navy-950 transition-colors duration-300;
+  }
+
+  .kwi-button::before {
+    content: '';
+    @apply absolute inset-0 -z-10 translate-y-full rounded-full bg-navy-950 transition-transform duration-500;
+  }
+
+  .kwi-button:hover::before {
+    @apply translate-y-0;
+  }
+
+  .kwi-button:hover {
+    @apply text-white;
+  }
+
+  .kwi-button--ghost {
+    @apply border-navy-950/25 text-navy-950/90;
+  }
+
+  .kwi-button--ghost::before {
+    @apply bg-liquid;
+  }
+
+  .kwi-link {
+    @apply inline-flex items-center gap-2 text-[12px] uppercase tracking-[0.18em] text-navy-950/70 hover:text-navy-950;
+  }
+
+  .kwi-sep {
+    @apply border-t border-gray-200;
+  }
+}
