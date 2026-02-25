@@ -1,6 +1,7 @@
 import { NavLink } from 'react-router-dom'
 import { AnimatePresence, motion } from 'framer-motion'
 import { useEffect, useState } from 'react'
+import logo from '../assets/logo.ico'
 
 const links = [
   { to: '/', label: 'Home' },
@@ -42,7 +43,12 @@ export function NavBar() {
                 to="/"
                 className="flex items-baseline gap-2 text-[13px] font-semibold tracking-[0.14em] text-navy-950"
               >
-                <span className="font-serif text-[18px] tracking-[-0.02em]">KWI</span>
+                <img
+                  src={logo}
+                  alt="Keshav Water Industries"
+                  className="h-6 w-6 rounded-md"
+                  loading="eager"
+                />
                 <span className="hidden sm:inline">Keshav Water Industries</span>
               </NavLink>
             </div>

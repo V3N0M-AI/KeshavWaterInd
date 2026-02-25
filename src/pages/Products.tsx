@@ -19,7 +19,6 @@ type Product = {
   applications: string[]
   process: string
   advantages: string[]
-  warranty: string
 }
 
 const products: Product[] = [
@@ -45,7 +44,6 @@ const products: Product[] = [
       'Modular membrane banks for easy scaling and servicing',
       'Protection interlocks to reduce pump/membrane failures',
     ],
-    warranty: '12 months on manufacturing defects (extended AMC options available).',
   },
   {
     title: 'Commercial RO Plant',
@@ -69,7 +67,6 @@ const products: Product[] = [
       'Low downtime and fast commissioning',
       'Quiet operation suitable for indoor utility rooms',
     ],
-    warranty: '12 months warranty with standard spares support.',
   },
   {
     title: 'Water Softener Plant',
@@ -93,7 +90,6 @@ const products: Product[] = [
       'Lower maintenance cost for boilers/heaters',
       'Consistent hardness control with proper regeneration cycles',
     ],
-    warranty: '12 months warranty (resin performance depends on raw water quality + operations).',
   },
   {
     title: 'DM Plant',
@@ -117,7 +113,6 @@ const products: Product[] = [
       'Long service life with correct regeneration practice',
       'Scalable configuration (add polishing stage if needed)',
     ],
-    warranty: '12 months warranty on plant & fittings; consumables covered as per usage.',
   },
   {
     title: 'ETP (Effluent Treatment Plant)',
@@ -135,7 +130,6 @@ const products: Product[] = [
       'Water reuse option',
       'Compliance with government standards',
     ],
-    warranty: '12 months warranty on plant components (AMC and O&M support available).',
   },
   {
     title: 'STP (Sewage Treatment Plant)',
@@ -159,7 +153,6 @@ const products: Product[] = [
       'Minimum footprint area with modular tanks',
       'Consistent treated water output with minimal chemicals',
     ],
-    warranty: '12 months warranty with support for commissioning and training.',
   },
   {
     title: 'Dialysis RO Plant',
@@ -183,7 +176,6 @@ const products: Product[] = [
       'Built for compliance-first environments',
       'Expandable architecture as bed count grows',
     ],
-    warranty: '12 months warranty (validation/consumables as per usage and standards).',
   },
 ]
 
@@ -251,9 +243,6 @@ export function Products() {
                       <li key={a}>• {a}</li>
                     ))}
                   </ul>
-
-                  <p className="mt-8 text-xs font-semibold uppercase tracking-[0.2em] text-navy-950">Warranty</p>
-                  <p className="mt-4 text-[15px] leading-relaxed text-navy-950">{p.warranty}</p>
                 </div>
               </div>
 

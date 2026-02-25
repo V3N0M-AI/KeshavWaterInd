@@ -7,10 +7,10 @@ export const clientCategories: ClientCategory[] = [
   {
     title: 'Healthcare & Hospitals',
     items: [
-      'Sir Ganga Ram Hospital, Delhi',
       'Sahara Hospital, Lucknow',
       'Park Hospital',
-      'DCDC Health Services Pvt Ltd.',
+      'Sir Ganga Ram Hospital, Delhi',
+      'DCDC Health Services Pvt Ltd. (All India)',
       'Gautam Health Care Pvt Ltd, Delhi',
       'Manas Hospital, Noida',
       'Medinova Health Care Pvt Ltd, Moradabad',

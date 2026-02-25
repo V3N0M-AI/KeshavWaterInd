@@ -12,6 +12,25 @@ export function Footer() {
               Medical-grade dialysis RO systems, industrial RO plants, and ETP/STP solutions engineered for
               reliability, compliance, and long-term performance.
             </p>
+
+            <div className="mt-7 grid gap-2 text-sm text-porcelain/75">
+              <p>
+                <span className="text-porcelain/55">Name</span> JAI SHANKAR KUMAR
+              </p>
+              <p>
+                <span className="text-porcelain/55">Phone</span> +91882691745, +91882691746
+              </p>
+              <p>
+                <span className="text-porcelain/55">Tel</span> 011-40157217
+              </p>
+              <p>
+                <span className="text-porcelain/55">Email</span> info@aquaticsolns.com
+              </p>
+              <p className="leading-relaxed">
+                <span className="text-porcelain/55">Location</span> F-26/1, Okhla Industrial Area, Phase-II , New
+                Delhi-110020
+              </p>
+            </div>
             <div className="mt-6">
               <a
                 className="inline-flex items-center rounded-full border border-white/20 bg-white/10 px-6 py-3 text-[12px] font-semibold uppercase tracking-[0.2em] text-white backdrop-blur-lg transition hover:bg-white hover:text-navy-950"

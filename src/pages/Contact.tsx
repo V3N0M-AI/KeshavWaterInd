@@ -64,9 +64,24 @@ export function Contact() {
           <Reveal delay={0.06}>
             <div className="rounded-[60px] border border-blue-100 bg-white p-10 shadow-[0_18px_60px_rgba(0,27,61,0.08)]">
               <p className="text-xs tracking-[0.16em] text-navy-950/60">CONNECT</p>
-              <p className="mt-4 text-sm text-navy-950/70">
-                WhatsApp and Google Maps links will be connected once the official numbers/addresses are confirmed.
-              </p>
+              <div className="mt-5 grid gap-2 text-sm text-navy-950/75">
+                <p>
+                  <span className="text-navy-950/55">Name</span> JAI SHANKAR KUMAR
+                </p>
+                <p>
+                  <span className="text-navy-950/55">Phone</span> +91882691745, +91882691746
+                </p>
+                <p>
+                  <span className="text-navy-950/55">Tel</span> 011-40157217
+                </p>
+                <p>
+                  <span className="text-navy-950/55">Email</span> info@aquaticsolns.com
+                </p>
+                <p className="leading-relaxed">
+                  <span className="text-navy-950/55">Location</span> F-26/1, Okhla Industrial Area, Phase-II , New
+                  Delhi-110020
+                </p>
+              </div>
             </div>
           </Reveal>
           </div>
