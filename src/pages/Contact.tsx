@@ -66,21 +66,29 @@ export function Contact() {
               <p className="text-xs tracking-[0.16em] text-navy-950/60">CONNECT</p>
               <div className="mt-5 grid gap-2 text-sm text-navy-950/75">
                 <p>
-                  <span className="text-navy-950/55">Name</span> JAI SHANKAR KUMAR
+                  <span className="text-navy-950/55">Name :</span> JAI SHANKAR KUMAR
                 </p>
                 <p>
-                  <span className="text-navy-950/55">Phone</span> +91882691745, +91882691746
+                  <span className="text-navy-950/55">Phone :</span> +919958453111
                 </p>
                 <p>
-                  <span className="text-navy-950/55">Tel</span> 011-40157217
+                  <span className="text-navy-950/55">Tel :</span> 011-40157217
                 </p>
                 <p>
-                  <span className="text-navy-950/55">Email</span> info@aquaticsolns.com
+                  <span className="text-navy-950/55">Email :</span> info@aquaticsolns.com
                 </p>
-                <p className="leading-relaxed">
-                  <span className="text-navy-950/55">Location</span> F-26/1, Okhla Industrial Area, Phase-II , New
-                  Delhi-110020
-                </p>
+                <div className="mt-2 leading-relaxed">
+                  <p>
+                    <span className="text-navy-950/55">Location</span>
+                  </p>
+                  <p>Floor No.: GROUND &amp; FIRST FLOOR PARTIALLY</p>
+                  <p>Building No./Flat No.: A-1-A DDA SHED, OPP A-45</p>
+                  <p>Road/Street: DDA SHED INDUSTRIAL AREA OKHLA PHASE-1</p>
+                  <p>City/Town/Village: New Delhi</p>
+                  <p>District: South East Delhi</p>
+                  <p>State: Delhi</p>
+                  <p>PIN Code: 110020</p>
+                </div>
               </div>
             </div>
           </Reveal>
